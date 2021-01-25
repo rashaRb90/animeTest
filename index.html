@@ -19,12 +19,17 @@
     <main>
             <div class="form-container">
                 <form id="addAnimeToWL">
-                        <label for="animeTitleInput">Anime Title</label>
-                        <input type="text" id=animeTitleInput required>
+                        <label for="animeTitleInput" >Anime Title</label>
+                        <input type="text" id=animeTitleInput name="animeTitleInput" >
                     <br>
                     <br>
                         <label for="animeCategory">Anime Category</label>
-                        <select id="animeCategory" required></select>
+                        <select id="animeCategory" name="animeCategory" >
+                            <option value="History" >History</option>
+                            <option value="Comedy" >Comedy</option>
+                            <option value="Horror" >Comedy</option>
+                            <option value="Romance" >Romance</option>
+                        </select>
                         <br>
                         <br>             
                         <button type="submit">Add</button>
